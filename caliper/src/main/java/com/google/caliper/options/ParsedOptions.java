@@ -196,6 +196,7 @@ final class ParsedOptions implements CaliperOptions {
   private ImmutableSet<String> instrumentNames = new ImmutableSet.Builder<String>()
       .add("allocation")
       .add("micro")
+      .add("macro")
       .build();
 
   @Option({"-i", "--instrument"})
